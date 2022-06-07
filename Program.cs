@@ -7,15 +7,16 @@ namespace Garage
     {
         static void Main(string[] args)
         {
-            Zero fxs = new Zero("Red", 5, 50, 75);
-            Zero fx = new Zero("Blue", 5, 50, 75);
-            Tesla modelS = new Tesla("Green", 4, 80, 75);
+            Zero fxs = new Zero("Red", 1);
+            Zero fx = new Zero("Blue", 1);
+            Tesla modelS = new Tesla("Blue", 4);
 
             List<IElectricVehicle> electricVehicles = new List<IElectricVehicle>() {
                 fx, fxs, modelS
             };
 
-            Console.WriteLine("Electric Vehicles");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Electric Vehicles:");
             foreach(IElectricVehicle ev in electricVehicles)
             {
                 Console.WriteLine(ev.GetChargePercentage());
@@ -25,14 +26,15 @@ namespace Garage
 
             /***********************************************/
 
-            Ram ram = new Ram("Red", 5, 50, 75);
-            Cessna cessna150 = new Cessna ("Red", 5, 50, 75);
+            Ram ram = new Ram("Red", 5);
+            Cessna cessna1 = new Cessna("Red", 5);
 
             List<IGasVehicle> gasVehicles = new List<IGasVehicle>() {
-                ram, cessna150
+                ram, cessna1
             };
 
-            Console.WriteLine("Gas Vehicles");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Gas Vehicles:");
             foreach(IGasVehicle gv in gasVehicles)
             {
                 Console.WriteLine(gv.GetGasPercentage());

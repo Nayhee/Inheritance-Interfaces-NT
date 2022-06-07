@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\workspace\\csharp\\inheritanceChapter\\inheritance\\inheritance.csproj",
+      "projectUniqueName": "C:\\Users\\natha\\workspace\\csharp\\Inheritance-Garage\\inheritance\\inheritance.csproj",
       "projectName": "inheritance",
-      "projectPath": "C:\\Users\\natha\\workspace\\csharp\\inheritanceChapter\\inheritance\\inheritance.csproj",
+      "projectPath": "C:\\Users\\natha\\workspace\\csharp\\Inheritance-Garage\\inheritance\\inheritance.csproj",
       "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\workspace\\csharp\\inheritanceChapter\\inheritance\\obj\\",
+      "outputPath": "C:\\Users\\natha\\workspace\\csharp\\Inheritance-Garage\\inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
