@@ -5,25 +5,21 @@ namespace Garage
 {
     public class Tesla : Vehicle, IElectricVehicle // Electric car
     {
-        public double BatteryKWh { get; set; }
-        public double CurrentChargePercentage {get; set;}
+        public double BatteryKWh { get; set; } = 150;
+        public double CurrentChargePercentage {get; set;} = 75;
         public string GetChargePercentage()
         {
             return $"Current Charge Percentage: {CurrentChargePercentage}%";
         }
-
-        public Tesla(string mainColor, int maximumOccupancy, double batteryKWh, double currentChargePercentage)
-        {
-            MainColor = mainColor;
-            MaximumOccupancy = maximumOccupancy;
-            BatteryKWh = batteryKWh;
-            CurrentChargePercentage = currentChargePercentage;
-        }
-
         public void ChargeBattery()
         {
             Console.WriteLine("Charging your vehicle.");
             CurrentChargePercentage = 100;
+        }
+        public Tesla(string mainColor, int maximumOccupancy)
+        {
+            MainColor = mainColor;
+            MaximumOccupancy = maximumOccupancy;
         }
     }
 }

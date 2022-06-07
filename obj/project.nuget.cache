@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YaoC9eBjgCRog1GuFACdF+gzfu826OGtn79+fKiP0DL19W5vEgjD5RULjBe9SZbDYmcB+ybMKifwc5leTFTvYA==",
+  "dgSpecHash": "cqCQcQrz3CLU00zEhYQgqpEYO15/+emNX4OoaRLMNOF2IJwTKV+7IHtwc2P9JPTcaA/pIx9IagpHZqB9iQYO0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\workspace\\csharp\\inheritanceChapter\\inheritance\\inheritance.csproj",
+  "projectFilePath": "C:\\Users\\natha\\workspace\\csharp\\Inheritance-Garage\\inheritance\\inheritance.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
